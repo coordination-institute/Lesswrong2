@@ -131,9 +131,13 @@ import './modules/alignment-forum/posts/custom_fields.js';
 import './modules/alignment-forum/posts/callbacks.js';
 import './modules/alignment-forum/posts/fragments.js';
 import './modules/alignment-forum/posts/helpers.js';
+import './modules/alignment-forum/posts/views.js';
 
 import './modules/alignment-forum/comments/custom_fields.js';
 import './modules/alignment-forum/comments/callbacks.js';
+import './modules/alignment-forum/comments/helpers.js';
+import './modules/alignment-forum/comments/views.js';
+import './modules/alignment-forum/comments/fragments.js';
 
 import './modules/alignment-forum/sequences/custom_fields.js'
 import './modules/alignment-forum/sequences/callbacks.js';
