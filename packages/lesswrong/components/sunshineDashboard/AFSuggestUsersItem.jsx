@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import withUser from '../common/withUser';
 import withHover from '../common/withHover'
 import ClearIcon from '@material-ui/icons/Clear';
+import withErrorBoundary from '../common/withErrorBoundary'
 
 class AFSuggestUsersItem extends Component {
 
@@ -86,4 +87,4 @@ const withUpdateOptions = {
   collection: Users,
   fragmentName: 'SunshineUsersList',
 }
-registerComponent('AFSuggestUsersItem', AFSuggestUsersItem, [withUpdate, withUpdateOptions], withUser, withHover);
+registerComponent('AFSuggestUsersItem', AFSuggestUsersItem, [withUpdate, withUpdateOptions], withUser, withHover, withErrorBoundary);
