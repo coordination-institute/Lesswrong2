@@ -2,7 +2,7 @@
 const postViewSections = {
   'curated': {
     label: "Curated Posts",
-    description: "Curated - Recent, high quality posts selected by the LessWrong moderation team.",
+    description: "Curated - Recent, high quality posts selected by the Post-Fiat Forum moderation team.",
     learnMoreLink: "/posts/tKTcrnKn2YSdxkxKG/frontpage-posting-and-commenting-guidelines",
     categoryIcon:"star",
     rssView: "curated-rss",
@@ -11,7 +11,7 @@ const postViewSections = {
   'frontpage': {
     label:'Frontpage Posts',
     categoryIcon:"supervisor_account",
-    description: "Posts meeting our frontpage guidelines: aim to explain, not to persuade. Avoid meta-discussion",
+    description: "Posts meeting our frontpage guidelines.",
     learnMoreLink: "/posts/tKTcrnKn2YSdxkxKG/frontpage-posting-and-commenting-guidelines",
     includes: "(includes curated content and frontpage posts)",
     rssView: "frontpage-rss",
@@ -27,14 +27,14 @@ const postViewSections = {
   },
   'meta': {
     label: 'Meta',
-    description: "Meta - Discussion about the LessWrong site.",
+    description: "Meta - Discussion about Post-Fiat Forum .",
     categoryIcon:"details",
     rssView: "meta-rss",
     rss:true
   },
   'daily': {
     label: 'Daily',
-    description: "Daily - All posts on LessWrong, sorted by date",
+    description: "Daily - All posts on Post-Fiat Forum, sorted by date",
     rss:false
   },
   'more': {
