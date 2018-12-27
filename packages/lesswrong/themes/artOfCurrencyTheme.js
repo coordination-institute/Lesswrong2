@@ -26,7 +26,7 @@ const sansSerifStack = [
 
 const palette = {
   primary: {
-    main: '#0c869b',
+    main: '#000000',
   },
   secondary: indigo,
   error: {
